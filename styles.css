@@ -1,0 +1,26 @@
+
+.status {
+  width: 400px;
+}
+
+.page-text {
+  width: 400px;
+}
+
+.contact {
+  width: 400px
+}
+
+.container {
+  width: 90%;
+  display: grid;
+  margin: 0 auto;
+  border: 1px solid;
+}
+
+
+ .girlpicture {
+   margin-left: 50%;
+   position: relative;
+   bottom: 220px;
+ }
