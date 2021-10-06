@@ -35,6 +35,7 @@
 
 .text-section {
   flex: 1;
+  margin-right: 100px;
   /* background-image: url("images/bg-pattern-desktop.svg");
   background-size: 100%; */
 }
@@ -42,10 +43,11 @@
 .model-section {
   height: auto;
   justify-content: right;
+  max-width: 80%;
 }
 
 .girlpicture {
-  /* width: 595px; */
+  /* width: 545px; */
   position: relative;
   max-width: 80%;
   left: 125px;
