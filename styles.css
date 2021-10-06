@@ -20,12 +20,6 @@
   width: 400px
 }
 
-/* .container {
-  width: 90%;
-  display: grid;
-  margin: 0 auto;
-  border: 1px solid;
-} */
 
 
 .container {
@@ -34,15 +28,12 @@
 
 .narrow {
   width: 610px;
-  background: lightblue;
-  /* Just so it's visible */
+
+
 }
 .wide {
   flex: 1;
-  /* Grow to rest of container */
-  background: lightgreen;
-  /* Just so it's visible */
-}
+
 
  .girlpicture {
 
