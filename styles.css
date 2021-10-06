@@ -1,6 +1,7 @@
 /* * {
   border: 1px solid red;
 } */
+
 .brand-logo {
   padding: 50px;
 }
@@ -17,31 +18,36 @@
   width: 400px
 }
 
+.wrapper{
+  display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
 .container {
   display: flex;
-  margin-left: 50px;
-  margin-right: 50px;
+  /* margin-left: 50px;
+  margin-right: 50px; */
   border: 1px solid;
   width: 65%;
   overflow: hidden;
-
 }
 
 .text-section {
   flex: 1;
-  background-image: url("images/bg-pattern-desktop.svg");
+  /* background-image: url("images/bg-pattern-desktop.svg");
+  background-size: 100%; */
 }
 
 .model-section {
-  flex: 1;
-
   height: auto;
-  justify-content: left;
+  justify-content: right;
 }
 
 .girlpicture {
   /* width: 595px; */
   position: relative;
   max-width: 80%;
- left: 135px;
+  left: 125px;
+  display: block;
 }
