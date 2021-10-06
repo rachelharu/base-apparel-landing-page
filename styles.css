@@ -1,4 +1,13 @@
 
+* {
+  border: 1px solid red;
+}
+
+.brand-logo {
+ padding: 50px;
+
+}
+
 .status {
   width: 400px;
 }
@@ -11,16 +20,32 @@
   width: 400px
 }
 
-.container {
+/* .container {
   width: 90%;
   display: grid;
   margin: 0 auto;
   border: 1px solid;
+} */
+
+
+.container {
+  display: flex;
 }
 
+.narrow {
+  width: 610px;
+  background: lightblue;
+  /* Just so it's visible */
+}
+.wide {
+  flex: 1;
+  /* Grow to rest of container */
+  background: lightgreen;
+  /* Just so it's visible */
+}
 
  .girlpicture {
-   margin-left: 50%;
-   position: relative;
+
+
    bottom: 220px;
  }
