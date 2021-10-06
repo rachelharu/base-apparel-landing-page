@@ -1,7 +1,6 @@
-* {
+/* * {
   border: 1px solid red;
-}
-
+} */
 .brand-logo {
   padding: 50px;
 }
@@ -18,18 +17,14 @@
   width: 400px
 }
 
-
 .container {
   display: flex;
   margin-left: 50px;
   margin-right: 50px;
-  
-}
+  border: 1px solid;
+  width: 65%;
+  overflow: hidden;
 
-.model-section {
-   width: 40%;
-   height: auto;
-  position: relative;
 }
 
 .text-section {
@@ -37,6 +32,16 @@
   background-image: url("images/bg-pattern-desktop.svg");
 }
 
+.model-section {
+  flex: 1;
+
+  height: auto;
+  justify-content: left;
+}
+
 .girlpicture {
-  /* max-width:  70%; */
+  /* width: 595px; */
+  position: relative;
+  max-width: 80%;
+ left: 135px;
 }
