@@ -1,27 +1,54 @@
 /* * {
   border: 1px solid red;
 } */
+body {
+  font-size: 16px;
+}
 
 .brand-logo {
-  padding: 50px;
+  max-width: 25%;
+  padding: 50px 50px 25px;
+  margin-left: 60px;
+  margin-top: 15px;
 }
 
 .status {
-  width: 400px;
+  margin-left: 110px;
+  margin-bottom: 25px;
+  width: fit-content;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  letter-spacing: 5px;
+  color: hsl(0, 6%, 24%);
+  word-spacing: 200px;
+  font-size: 60px;
+  line-height: 4rem;
+}
+
+.color-text {
+  font-family: 'Josefin Sans', sans-serif;
+  color: hsl(0, 36%, 70%);
+  font-weight: 300;
 }
 
 .page-text {
+  font-family: 'Josefin Sans', sans-serif;
   width: 400px;
+  color: hsl(0, 36%, 70%);
+  margin-left: 115px;
+  line-height: 1.5rem;
+  margin-top: 0px;
 }
 
 .contact {
+  margin-left: 125px;
   width: 400px
 }
 
-.wrapper{
+.wrapper {
   display: flex;
-   align-items: center;
-   justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
