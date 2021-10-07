@@ -64,17 +64,18 @@ body {
 
 .text-section {
   flex: 1;
-  margin-right: 100px;
+  margin-right: 200px;
+  /* background: Linear-gradient(135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%); */
+  z-index:2;
 }
 
 .model-section {
   height: auto;
-  max-width: 100%;
+  /* max-width: 100%; */
 }
 
 .girlpicture {
   position: relative;
-  max-width: 95%;
-  left: 125px;
+  max-width: 115%;
   display: block;
 }
