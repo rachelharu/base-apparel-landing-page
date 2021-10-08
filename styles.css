@@ -60,13 +60,14 @@ body {
   width: 1200px;
   height: 700px;
   overflow: hidden;
+  background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%) );
+  background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%) );
 }
 
 .text-section {
   flex: 1;
   margin-right: 200px;
-  /* background: Linear-gradient(135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%); */
-  z-index:2;
+
 }
 
 .model-section {
