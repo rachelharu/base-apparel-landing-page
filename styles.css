@@ -41,10 +41,24 @@ body {
   margin-top: 0px;
 }
 
-.contact {
+.contact-form {
   margin-top: 3.5rem;
   margin-left: 145px;
   width: 400px
+}
+
+
+
+.email-section{
+  border-radius: 25px;
+  width: 320px;
+  height: 40px;
+  outline: none;
+  border: 1px solid;
+  border-color: hsl(0, 36%, 70%);
+  background: linear-gradient(135deg, hsl(0, 60%, 100%), hsl(0, 30%, 95%) );
+  font-family: 'Josefin Sans', sans-serif;
+  color: red;
 }
 
 .wrapper {
@@ -61,22 +75,20 @@ body {
   height: 700px;
   overflow: hidden;
   background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%) );
-  background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%) );
+  background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 30%, 95%) );
 }
 
 .text-section {
   flex: 1;
-  margin-right: 200px;
   background-image: url("images/bg-pattern-desktop.svg");
 }
 
 .model-section {
   height: auto;
-  /* max-width: 100%; */
 }
 
 .girlpicture {
   position: relative;
-  max-width: 100%;
+  /* max-width: 100%; */
   display: block;
 }
