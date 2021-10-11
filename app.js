@@ -8,8 +8,10 @@ emailField.addEventListener('keyup', function(event) {
 
 if (isValidEmail) {
   console.log("omg");
+  btn.disabled = false;
 } else {
   console.log("no");
+  btn.disabled = true;
 }
 });
 
