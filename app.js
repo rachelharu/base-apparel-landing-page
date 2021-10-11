@@ -1,6 +1,7 @@
 // checks if email field is valid
 const emailField = document.getElementById('email');
-
+const signUpForm = document.getElementById('contact-form');
+const submitButton = document.getElementById('btn');
 
 emailField.addEventListener('keyup', function(event) {
   const isValidEmail = emailField.checkValidity();
@@ -8,10 +9,10 @@ emailField.addEventListener('keyup', function(event) {
 
 if (isValidEmail) {
   console.log("omg");
-  btn.disabled = false;
+  submitButton.disabled = false;
 } else {
   console.log("no");
-  btn.disabled = true;
+  submitButton.disabled = true;
 }
 });
 
