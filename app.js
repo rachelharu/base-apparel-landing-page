@@ -16,8 +16,10 @@ if (isValidEmail) {
 }
 });
 
-// console logs hi when button is clicked
-document.getElementById("btn").addEventListener("click", function() {
-  console.log("hi");
 
+
+// console logs hi when button is clicked
+submitButton.addEventListener("click", function() {
+  console.log("hi");
+  // signUpForm.submit();
 });
