@@ -60,7 +60,7 @@ body {
 }
 
 .email-section:valid {
-  border-color: black;
+  border-color: hsl(0, 36%, 70%);
 }
 
 .email-section:invalid {
@@ -79,6 +79,11 @@ body {
   z-index: 2;
   cursor:pointer;
   box-shadow:  0px 8px 20px 2px;
+}
+
+.submit-button:hover {
+  background: #F6CAC9;
+
 }
 
 .wrapper {
