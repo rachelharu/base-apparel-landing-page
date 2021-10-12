@@ -69,7 +69,10 @@ body {
 
 .email-section:invalid {
   border-color: red;
-}
+
+  }
+
+
 
 .submit-button {
   left: 430px;
@@ -87,7 +90,25 @@ body {
 
 .submit-button:hover {
   background: #F6CAC9;
+}
 
+#error-image {
+  position:relative;
+  top: 8px;
+  right: 100px;
+  visibility: hidden;
+}
+
+
+
+#error {
+  margin-left: 20px;
+  margin-top: 5px;
+  color: hsl(0, 93%, 68%);
+  display: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 12px;
+  position: absolute;
 }
 
 .wrapper {
