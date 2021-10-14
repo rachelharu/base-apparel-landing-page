@@ -189,7 +189,7 @@ input[type=email] {
   .container {
     height: 800px;
     width: 600px;
-
+    overflow: scroll;
     overflow-x: hidden;
   }
 
@@ -200,4 +200,6 @@ input[type=email] {
   .submit-button {
     left: 150px;
   }
+
+
 }
