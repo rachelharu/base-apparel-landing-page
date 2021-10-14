@@ -1,6 +1,7 @@
 /* * {
   border: 1px solid red;
 } */
+
 body {
   font-size: 16px;
 }
@@ -134,7 +135,6 @@ input[type=email] {
 
 .girl-picture {
   position: relative;
-  /* max-width: 100%; */
   display: block;
 }
 
@@ -175,8 +175,6 @@ input[type=email] {
     display: block;
     margin-top: 0px;
     position: relative;
-    /* z-index:1; */
-    /* object-fit: contain; */
   }
 
   .mobile-box {
@@ -191,7 +189,8 @@ input[type=email] {
   .container {
     height: 800px;
     width: 600px;
-    overflow: scroll;
+
+    overflow-x: hidden;
   }
 
   #contact-form {
