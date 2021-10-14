@@ -14,7 +14,7 @@ Users should be able to:
 
 ### Live Preview
 
-- Live Site URL: [Add live site URL here]
+- Live Site URL: [https://base-apparel-landing-page-2w88n0jdz-rachelharu.vercel.app/]
 
 
 ### Built with
